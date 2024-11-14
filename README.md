@@ -50,10 +50,10 @@ To use Population Dynamics Embeddings, prepare ground truth data (e.g., target v
 
 Explore our demo notebooks to understand various use cases of PDFM Embeddings. The code provided is available under the Apache 2.0 license.
 
-- **Nowcasting** [Colab](https://colab.sandbox.google.com/github/google-research/population-dynamics/blob/master/notebooks/pdfm_nowcasting.ipynb): Predict outcomes for counties using partial data.
-- **Superresolution and Imputation** [Colab](https://colab.sandbox.google.com/github/google-research/population-dynamics/blob/master/notebooks/pdfm_superresolution_and_imputation.ipynb): Train a model at the county level to predict at the ZIP code level, demonstrating imputation capabilities.
-- **Forecasting with TimesFM** [Colab](https://colab.sandbox.google.com/github/google-research/population-dynamics/blob/master/notebooks/pdfm_timesfm_forecasting_final.ipynb): Use TimesFM to perform predictive forecasting.
-- **Nighttime Lights Prediction with Earth Engine** [Colab](https://colab.sandbox.google.com/github/google-research/population-dynamics/blob/master/notebooks/pdfm_earth_engine.ipynb): Integrate Earth Engine data, like nighttime lights, with the embeddings for environmental and socioeconomic forecasting.
+- **Nowcasting** [Colab](https://colab.sandbox.google.com/github/google-research/population-dynamics/blob/master/notebooks/pdfm_nowcasting.ipynb): Here the model uses past and partial present-day data for a target variable at county level to predict outcomes for remaining counties. 
+- **Superresolution and Imputation** [Colab](https://colab.sandbox.google.com/github/google-research/population-dynamics/blob/master/notebooks/pdfm_superresolution_and_imputation.ipynb): Here we use the embeddings to help train a model at the county level on a target variable to predict at the zip code level. This model also demonstrates imputation capabilities by training on 20% of zip codes and predicting for the remaining 80%.
+- **Forecasting with TimesFM** [Colab](https://colab.sandbox.google.com/github/google-research/population-dynamics/blob/master/notebooks/pdfm_timesfm_forecasting_final.ipynb): In this experimental use case, we incorporate TimesFM (a Univariate Forecasting Model) to perform spatiotemporal forecasting. The embeddings are used to adjust for errors in the forecasts and improve their accuracy.
+- **Nighttime Lights Prediction with Earth Engine** [Colab](https://colab.sandbox.google.com/github/google-research/population-dynamics/blob/master/notebooks/pdfm_earth_engine.ipynb): This notebook illustrates how Earth Engine data, such as nighttime lights, can also be predicted from the embeddings. By referencing Earth Engine data, the model enhances geospatial understanding and demonstrates applications for environmental and socioeconomic forecasting.
 
 ## Benchmarks
 
