@@ -52,7 +52,7 @@ Explore our demo notebooks to understand various use cases of PDFM Embeddings. T
 
 - **Nowcasting** [Colab](https://colab.sandbox.google.com/github/google-research/population-dynamics/blob/master/notebooks/pdfm_nowcasting.ipynb): Predict outcomes for counties using partial data.
 - **Superresolution and Imputation** [Colab](https://colab.sandbox.google.com/github/google-research/population-dynamics/blob/master/notebooks/pdfm_superresolution_and_imputation.ipynb): Train a model at the county level to predict at the ZIP code level, demonstrating imputation capabilities.
-- **Forecasting with TimesFM** [Colab](https://colab.sandbox.google.com/github/google-research/population-dynamics/blob/master/notebooks/pdfm_timesfm_forecasting_final.ipynb): Use TimeSFM to perform predictive forecasting.
+- **Forecasting with TimesFM** [Colab](https://colab.sandbox.google.com/github/google-research/population-dynamics/blob/master/notebooks/pdfm_timesfm_forecasting_final.ipynb): Use TimesFM to perform predictive forecasting.
 - **Nighttime Lights Prediction with Earth Engine** [Colab](https://colab.sandbox.google.com/github/google-research/population-dynamics/blob/master/notebooks/pdfm_earth_engine.ipynb): Integrate Earth Engine data, like nighttime lights, with the embeddings for environmental and socioeconomic forecasting.
 
 ## Benchmarks
