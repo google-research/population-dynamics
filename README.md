@@ -52,29 +52,33 @@ Explore our demo notebooks to understand various use cases of PDFM Embeddings. T
 
 - **Nowcasting** [Colab](https://colab.sandbox.google.com/github/google-research/population-dynamics/blob/master/notebooks/pdfm_nowcasting.ipynb): Predict outcomes for counties using partial data.
 - **Superresolution and Imputation** [Colab](https://colab.sandbox.google.com/github/google-research/population-dynamics/blob/master/notebooks/pdfm_superresolution_and_imputation.ipynb): Train a model at the county level to predict at the ZIP code level, demonstrating imputation capabilities.
-- **Forecasting with TimeSFM** [Colab](https://colab.sandbox.google.com/github/google-research/population-dynamics/blob/master/notebooks/pdfm_timesfm_forecasting_final.ipynb): Use TimeSFM to perform predictive forecasting.
+- **Forecasting with TimesFM** [Colab](https://colab.sandbox.google.com/github/google-research/population-dynamics/blob/master/notebooks/pdfm_timesfm_forecasting_final.ipynb): Use TimeSFM to perform predictive forecasting.
 - **Nighttime Lights Prediction with Earth Engine** [Colab](https://colab.sandbox.google.com/github/google-research/population-dynamics/blob/master/notebooks/pdfm_earth_engine.ipynb): Integrate Earth Engine data, like nighttime lights, with the embeddings for environmental and socioeconomic forecasting.
 
 ## Benchmarks
 
-Benchmark files include ground truth data for evaluating PDFM Embeddings across prediction tasks.
+The following benchmark files contain ground truth data used to evaluate Population Dynamics Based Embeddings. They can be used alongside the embeddings to reproduce our results and assess performance across various geospatial and temporal prediction tasks..
 
-- **Interpolation, Superresolution, and Extrapolation**: `conus27` file supports tasks involving spatial interpolation, superresolution, and extrapolation.
-- **Forecasting**: Two datasets for temporal forecasting:
-  - `county_unemployment.csv`: Monthly county-level unemployment data (1990-2024).
-  - `zcta_poverty.csv`: Annual poverty estimates at the ZCTA level (2011-2022).
+- **Interpolation, Superresolution, and Extrapolation**: The conus27 file is a versatile dataset that supports tasks involving interpolation (filling gaps), superresolution (predicting at finer spatial scales), and extrapolation (projecting data over large missing regions). This file includes detailed columns for location information (place, county, state, latitude, longitude) and key population health indicators, along with geographic features such as tree cover, elevation, and nighttime lights.
+- **Forecasting**: The model's capabilities in temporal forecasting are illustrated with two datasets:
+  - `county_unemployment.csv`: Contains county-level unemployment data over a monthly timespan from 1990 to 2024, enabling users to track employment trends over time.
+  - `zcta_poverty.csv`: This file offers annual poverty estimates at the ZIP Code Tabulation Area (ZCTA) level from 2011 to 2022, providing insight into socioeconomic changes at finer spatial scales.
 
-All ground truth data is gathered from publicly available sources, including Data Commons and Google Earth Engine.
+All ground truth data included in the benchmarks are gathered from publicly available sources, through the Data Commons and Google Earth Engine APIs. Here's a list of the original sources:
 
-### Data Sources
+- #### Data Commons sources 
+  - Health variables: [CDC PLACES 2022](https://data.cdc.gov/500-Cities-Places/PLACES-ZCTA-Data-GIS-Friendly-Format-2022-release/c76y-7pzg/about_data) 
+  - Unemployment: [bls.gov](http://bls.gov)
+  - Poverty: [census.gov](https://www.census.gov/programs-surveys/acs/data/data-via-ftp.html)
 
-- **Health Variables**: CDC PLACES 2022
-- **Unemployment**: bls.gov
-- **Poverty**: census.gov
-- **ZCTA and County Boundaries**: TIGER data
-- **Tree Cover**: ESA/WorldCover
-- **Night Lights**: NOAA VIIRS
-- **Elevation**: USGS SRTM
+- #### Google Earth Engine sources
+  - ZCTA and County boundaries: [TIGER/2010/ZCTA5](https://developers.google.com/earth-engine/datasets/catalog/TIGER_2010_ZCTA5#terms-of-use), [TIGER/2016/Counties](https://developers.google.com/earth-engine/datasets/catalog/TIGER_2016_Counties)
+  - Tree cover: [ESA/WorldCover/v100](https://developers.google.com/earth-engine/datasets/catalog/ESA_WorldCover_v100)
+  - Night lights: [NOAA/VIIRS/DNB/ANNUAL_V22](https://developers.google.com/earth-engine/datasets/catalog/NOAA_VIIRS_DNB_ANNUAL_V22)
+  - Elevation: [USGS/SRTMGL1_003](https://developers.google.com/earth-engine/datasets/catalog/USGS_SRTMGL1_003)
+- [2020 ZCTA to County relationship file](https://www2.census.gov/geo/docs/maps-data/data/rel2020/zcta520/tab20_zcta520_county20_natl.txt)
+
+
 
 ## License & Contact
 
