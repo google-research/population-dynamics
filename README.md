@@ -31,7 +31,7 @@ By incorporating spatial relationships and diverse feature types, these embeddin
 
 ## Getting Access to the Embeddings
 
-Access to Population Dynamics Embeddings is subject to Google’s (Terms of Service)[https://policies.google.com/terms]. Users can download the embeddings and associated files after completing the (intake form)[https://docs.google.com/forms/d/e/1FAIpQLSeZLIqTCIx1-OiBzUnqXZpu_k5M223ZvMmqwQhMZ_0TkaWhEQ/viewform?usp=dialog].
+Access to Population Dynamics Embeddings is subject to Google’s [Terms of Service](https://policies.google.com/terms). Users can download the embeddings and associated files after completing the [intake form](https://docs.google.com/forms/d/e/1FAIpQLSeZLIqTCIx1-OiBzUnqXZpu_k5M223ZvMmqwQhMZ_0TkaWhEQ/viewform?usp=dialog).
 
 ## Using the Embeddings
 
@@ -50,10 +50,10 @@ To use Population Dynamics Embeddings, prepare ground truth data (e.g., target v
 
 Explore our demo notebooks to understand various use cases of PDFM Embeddings. The code provided is available under the Apache 2.0 license.
 
-- **Nowcasting** (Colab)[https://colab.sandbox.google.com/github/google-research/population-dynamics/blob/master/notebooks/pdfm_nowcasting.ipynb]: Predict outcomes for counties using partial data.
-- **Superresolution and Imputation** (Colab)[https://colab.sandbox.google.com/github/google-research/population-dynamics/blob/master/notebooks/pdfm_superresolution_and_imputation.ipynb]: Train a model at the county level to predict at the ZIP code level, demonstrating imputation capabilities.
-- **Forecasting with TimeSFM** (Colab)[https://colab.sandbox.google.com/github/google-research/population-dynamics/blob/master/notebooks/pdfm_timesfm_forecasting_final.ipynb]: Use TimeSFM to perform predictive forecasting.
-- **Nighttime Lights Prediction with Earth Engine** (Colab)[https://colab.sandbox.google.com/github/google-research/population-dynamics/blob/master/notebooks/pdfm_earth_engine.ipynb]: Integrate Earth Engine data, like nighttime lights, with the embeddings for environmental and socioeconomic forecasting.
+- **Nowcasting** [Colab](https://colab.sandbox.google.com/github/google-research/population-dynamics/blob/master/notebooks/pdfm_nowcasting.ipynb): Predict outcomes for counties using partial data.
+- **Superresolution and Imputation** [Colab](https://colab.sandbox.google.com/github/google-research/population-dynamics/blob/master/notebooks/pdfm_superresolution_and_imputation.ipynb): Train a model at the county level to predict at the ZIP code level, demonstrating imputation capabilities.
+- **Forecasting with TimeSFM** [Colab](https://colab.sandbox.google.com/github/google-research/population-dynamics/blob/master/notebooks/pdfm_timesfm_forecasting_final.ipynb): Use TimeSFM to perform predictive forecasting.
+- **Nighttime Lights Prediction with Earth Engine** [Colab](https://colab.sandbox.google.com/github/google-research/population-dynamics/blob/master/notebooks/pdfm_earth_engine.ipynb): Integrate Earth Engine data, like nighttime lights, with the embeddings for environmental and socioeconomic forecasting.
 
 ## Benchmarks
 
