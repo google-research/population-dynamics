@@ -31,7 +31,7 @@ By incorporating spatial relationships and diverse feature types, these embeddin
 
 ## Getting Access to the Embeddings
 
-Access to Population Dynamics Embeddings is subject to Google’s [Terms of Service](https://policies.google.com/terms). Users can download the embeddings and associated files after completing the [intake form](https://docs.google.com/forms/d/e/1FAIpQLSeZLIqTCIx1-OiBzUnqXZpu_k5M223ZvMmqwQhMZ_0TkaWhEQ/viewform?usp=dialog).
+Access to Population Dynamics Embeddings is subject to Google’s [Terms of Service](https://policies.google.com/terms). The embeddings and associated files are available upon request; please send an email to pdfm-embeddings@google.com to receive them using the subject line "Access to PDFM Embeddings" and ensuring you describe your intended use case in the request. 
 
 ## Using the Embeddings
 
