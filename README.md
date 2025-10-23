@@ -21,11 +21,7 @@ These features are aggregated at specific **spatial resolutions** (i.e., postal 
 
 ## 📄 Paper
 
-For more information on PD-Foundations embeddings, please see our paper on:
-
-  * [arXiv](https://arxiv.org/abs/2411.07207)
-  * [the Earth AI Tech Report](https://www.google.com/search?q=https://ai.google/earth-ai)
-  * [ai.google/earth-ai](https://www.google.com/search?q=https://ai.google/earth-ai)
+For more information on PD-Foundations embeddings, please see our [paper on arXiv](https://arxiv.org/abs/2411.07207), the [Earth AI Tech Report](http://goo.gle/earthai-techreport), this [YouTube video](https://www.youtube.com/watch?v=ZxmB8Z5i1Ls), and [ai.google/earth-ai](ai.google/earth-ai)
 
 -----
 
