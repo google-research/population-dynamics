@@ -72,10 +72,10 @@ Explore our demo notebooks to understand various use cases of PD-Foundations emb
 
 | Notebook | Description |
 | :--- | :--- |
-| **Nowcasting Colab** | Uses past and partial present-day data for a county-level target variable to predict outcomes for remaining counties. |
-| **Superresolution and Imputation Colab** | Helps train a model at the county level on a target variable to predict at the zip code level. Also demonstrates imputation (training on 20% of zip codes and predicting for the remaining 80%). |
-| **Forecasting with TimesFM Colab** | An experimental use case incorporating **TimesFM** (a Univariate Forecasting Model) to perform spatiotemporal forecasting, where embeddings adjust for forecast errors and improve accuracy. |
-| **Nighttime Lights Prediction with Earth Engine Colab** | Illustrates how Earth Engine data, such as nighttime lights, can also be predicted from the embeddings, enhancing geospatial understanding for environmental and socioeconomic forecasting. |
+| **[Nowcasting Colab](https://colab.sandbox.google.com/github/google-research/population-dynamics/blob/master/notebooks/pdfm_nowcasting.ipynb)** | Uses past and partial present-day data for a county-level target variable to predict outcomes for remaining counties. |
+| **[Superresolution and Imputation Colab](https://colab.sandbox.google.com/github/google-research/population-dynamics/blob/master/notebooks/pdfm_superresolution_and_imputation.ipynb)** | Helps train a model at the county level on a target variable to predict at the zip code level. Also demonstrates imputation (training on 20% of zip codes and predicting for the remaining 80%). |
+| **[Forecasting with TimesFM Colab](https://colab.sandbox.google.com/github/google-research/population-dynamics/blob/master/notebooks/pdfm_timesfm_forecasting_final.ipynb)** | An experimental use case incorporating **TimesFM** (a Univariate Forecasting Model) to perform spatiotemporal forecasting, where embeddings adjust for forecast errors and improve accuracy. |
+| **[Nighttime Lights Prediction with Earth Engine Colab](https://colab.sandbox.google.com/github/google-research/population-dynamics/blob/master/notebooks/pdfm_earth_engine.ipynb)** | Illustrates how Earth Engine data, such as nighttime lights, can also be predicted from the embeddings, enhancing geospatial understanding for environmental and socioeconomic forecasting. |
 
 -----
 
