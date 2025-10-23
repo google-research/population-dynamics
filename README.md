@@ -21,7 +21,7 @@ These features are aggregated at specific **spatial resolutions** (i.e., postal 
 
 ## 📄 Paper
 
-For more information on PD-Foundations embeddings, please see our [paper on arXiv](https://arxiv.org/abs/2411.07207), the [Earth AI Tech Report](http://goo.gle/earthai-techreport), this [YouTube video](https://www.youtube.com/watch?v=ZxmB8Z5i1Ls), and [ai.google/earth-ai](ai.google/earth-ai)
+For more information on PD-Foundations embeddings, please see our [paper on arXiv](https://arxiv.org/abs/2411.07207), the [Earth AI Tech Report](http://goo.gle/earthai-techreport), this [YouTube video](https://www.youtube.com/watch?v=ZxmB8Z5i1Ls), and [ai.google/earth-ai](https://ai.google/earth-ai)
 
 -----
 
@@ -42,7 +42,7 @@ By incorporating spatial relationships and diverse feature types, these embeddin
 
 Embeddings for **17+ countries** (at varying spatial resolutions) are available for **research use** (subject to approval) at no cost and will be made available for **commercial and public sector use** via a paid Early Access Program.
 
-Approved users can access the embeddings dataset via a **BigQuery Listing**. Use [this form](https://www.google.com/search?q=https://docs.google.com/forms/d/e/1FAIpQLSc6i5wQ4u-1_uF3R8sB8s6r8R7p8p9q8n8S8d7Q/viewform) to apply for research access or to join the Early Access Program waitlist.
+Approved users can access the embeddings dataset via a **BigQuery Listing**. Use [this form](https://forms.gle/ysdp5uUoPrMrhjZQA) to apply for research access or to join the Early Access Program waitlist.
 
 > **Note:** Access to PD-Foundations embeddings is subject to Google’s [Terms of Service](https://policies.google.com/terms).
 
